@@ -1,0 +1,7 @@
+#include<math.h>
+int main()
+{
+	int result= abs(-9);
+	printf("%d", result);
+	return 0;
+}

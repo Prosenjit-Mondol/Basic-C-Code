@@ -1,0 +1,9 @@
+#include<math.h>
+int main()
+{
+	double x=8.468;
+	double result=round(x);
+	printf("round(%lf)=%lf", x,result);
+	return 0;
+	
+}

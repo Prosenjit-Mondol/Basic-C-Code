@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+	float base, hight , area;
+	printf("Base=");
+	scanf("%f",& base);
+	printf("Hight=");
+	scanf("%f" ,& hight);
+	area=(float)1/2 * base * hight ;
+	printf("Area=%f", area);
+	
+	return 0;
+}

@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+	int ResultFromFunction=add(5,9);
+	printf("The result is %d", ResultFromFunction);
+}
+int add ( int x , int y)
+{
+	int result=x+y;
+	return result;
+}

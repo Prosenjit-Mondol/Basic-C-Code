@@ -1,0 +1,11 @@
+#include<stdio.h>
+void main ()
+{
+	p();
+	p();
+	p();
+}
+void p()
+{
+	printf("Hello Prosenjit");
+}

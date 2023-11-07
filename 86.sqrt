@@ -1,0 +1,11 @@
+#include<math.h>
+int main()
+{
+	int x;
+	printf("Enter number:");
+	scanf("%d", &x);
+	double result= sqrt(x);
+	printf("Result is %.2lf", result);
+	return 0;
+	
+}

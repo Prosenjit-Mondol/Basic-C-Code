@@ -1,0 +1,31 @@
+#include<stdio.h>
+int main()
+{
+	int ara[]={ 4, 6, 34, 66, 70, 75, 78, 86, 92, 93, 99};
+	int low_indx= 0;
+	int high_indx=10;
+	int num=93;
+	int mid_indx;
+	while (low_indx<=high_indx) {
+		mid_indx=(low_indx+high_indx)/2;
+		if( num== ara[ mid_indx] ){
+			break;
+		}
+		if (num<ara[mid_indx] ) {
+			high_indx= mid_indx-1;
+		}
+		else {
+			low_indx= mid_indx+1;
+		}
+	}
+	if (low_indx > high_indx ) {
+			printf ("%d is not in the array/n" , num);
+	}
+	else {
+			printf("%d is found in the array . It is the %d th element of the array./n" ,  ara [mid_indx] , mid_indx) ;
+	}
+	return 0;
+	
+			
+		
+}

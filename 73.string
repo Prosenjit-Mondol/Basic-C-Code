@@ -1,0 +1,9 @@
+#include<string.h>
+#include<stdio.h>
+int main()
+{
+	char str1[100]="hero";
+	char str2[100]="prosenjit";
+	printf("%s", strcat(str1, str2));
+	
+}

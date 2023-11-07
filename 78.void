@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+	printlnt(5);
+}
+void printInt(int x)
+{
+	printf("The value is : %d\n", x);
+}

@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main ()
+{
+	int number;
+	printf("Enter octal number= ");
+	scanf("%o", &number);
+	printf("hexa-decimal =%x", number);
+	return 0;
+}

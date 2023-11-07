@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main ()
+{
+	char lower;
+	printf("Enter any lowercass letter:");
+	scanf("%c", &lower);
+	printf("The uppercass letter:%c\n", lower-32);
+	return 0;
+}

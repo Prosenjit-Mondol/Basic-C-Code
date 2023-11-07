@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main ()
+{
+	char ara[100];
+	printf("Enter any string:");
+	scanf( "%[^\n]" , &ara);
+	printf("You have entered: %s" , ara);
+}

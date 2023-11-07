@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main ()
+{
+	int x;
+	x = scan();
+	printf("User has entered :%d", x);
+	
+}
+int scan()
+{
+	int value;
+	printf("Enter a value:");
+	scanf("%d", &value);
+	
+	return value;
+}
